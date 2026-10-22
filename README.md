@@ -19,22 +19,23 @@ The side panels are not finished. See "Known issues" below.
 ## Repository contents
 
 ```
-scripts/
-  scale_car.py          prepares the car: rotates, scales to 4800 mm, centres, saves car_scaled.stl
-  make_cell.py          creates the floor and the two walls
-  make_tool.py          creates the paint gun and its tool point (run once)
-  fix_gun.py            moves the gun model 300 mm back along the tool axis
-  paint_roof.py         adds the pedestal and builds Paint_Roof
-  paint_roof_far.py     builds Paint_Roof_Far
-  paint_ends.py         builds the four hood and trunk programs
-  paint_sides.py        side panel attempt (not verified, see Known issues)
-  check_collisions.py   runs the RoboDK program check on Paint_Roof
-  collision_test2.py    lifts the car in steps and prints the collisions
-  diagnostics/         scripts used to find the problems (kept as a record, not meant to be re-run)
-screenshots/
-docs/Technical_Report.pdf
-requirements.txt
-```
+All files are in the top folder of the repository.
+
+scale_car.py          prepares the car: rotates, scales to 4800 mm, centres, saves car_scaled.stl
+make_cell.py          creates the floor and the two walls
+make_tool.py          creates the paint gun and its tool point (run once)
+fix_gun.py            moves the gun model 300 mm back along the tool axis
+paint_roof.py         adds the pedestal and builds Paint_Roof
+paint_roof_far.py     builds Paint_Roof_Far
+paint_ends.py         builds the four hood and trunk programs
+paint_sides.py        side panel attempt (not verified, see Known issues)
+check_collisions.py   runs the RoboDK program check on Paint_Roof
+collision_test2.py    lifts the car in steps and prints the collisions
+diagnose2.py, diagnose3.py, diagnose_sides2.py
+                      scripts used to find the problems (kept as a record, not meant to be re-run)
+requirements.txt      Python packages
+Vinit agarwal_Technical Report.pdf   the technical report
+roof .png, collision test main 2.png, Screenshot 2026-10-19 151159.png   screenshots
 
 The car mesh (`car_scaled.stl`), the original GLB file and the `.rdk` station are too large for this repository. They are in the Google Drive folder from my submission email, under `Simulation_Files/`.
 
