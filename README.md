@@ -4,7 +4,7 @@
 - **Software used:** RoboDK (Windows) with Python 3.13 and the RoboDK API
 - **Robot selected:** ABB IRB 4600-20/2.50
 
-This is my submission for the Yuktii AI Labs Robotics Simulation Intern practical assessment. One industrial robot paints a Tesla Model 3 mesh (scaled to 4,800 mm long) inside a small painting cell. The station, the paths and the checks are all built with Python scripts, so the project can be rebuilt from this repository.
+This is my project for the Yuktii AI Labs Robotics Simulation Intern practical assessment. One industrial robot paints a Tesla Model 3 mesh (scaled to 4,800 mm long) inside a small painting cell. The station, the paths and the checks are all built with Python scripts, so the project can be rebuilt from this repository.
 
 ## What it does
 
